@@ -1,0 +1,37 @@
+{
+  "tool_name": "Python Network Scanner",
+  "generated_at": "2026-06-18T12:00:00+00:00",
+  "summary": {
+    "total_checks": 6,
+    "open_ports": 2,
+    "high": 1,
+    "medium": 1,
+    "low": 0
+  },
+  "results": [
+    {
+      "target": "192.0.2.10",
+      "port": 22,
+      "status": "open",
+      "service_hint": "SSH",
+      "severity": "Medium",
+      "recommendation": "SSH is open. Restrict access to trusted networks and enforce strong authentication."
+    },
+    {
+      "target": "192.0.2.10",
+      "port": 3389,
+      "status": "open",
+      "service_hint": "RDP",
+      "severity": "High",
+      "recommendation": "RDP is open. Restrict access using VPN, firewall rules, and MFA."
+    },
+    {
+      "target": "198.51.100.20",
+      "port": 443,
+      "status": "closed_or_filtered",
+      "service_hint": "HTTPS",
+      "severity": "Info",
+      "recommendation": "No action required based on this basic TCP check."
+    }
+  ]
+}

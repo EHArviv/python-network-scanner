@@ -1,0 +1,33 @@
+Python Network Scanner Summary
+==============================
+
+Generated At: 2026-06-18T12:00:00+00:00
+Total Checks: 6
+Open Ports: 2
+High Findings: 1
+Medium Findings: 1
+Low Findings: 0
+
+Results
+-------
+
+Target: 192.0.2.10
+Port: 22
+Status: open
+Service Hint: SSH
+Severity: Medium
+Recommendation: SSH is open. Restrict access to trusted networks and enforce strong authentication.
+
+Target: 192.0.2.10
+Port: 3389
+Status: open
+Service Hint: RDP
+Severity: High
+Recommendation: RDP is open. Restrict access using VPN, firewall rules, and MFA.
+
+Target: 198.51.100.20
+Port: 443
+Status: closed_or_filtered
+Service Hint: HTTPS
+Severity: Info
+Recommendation: No action required based on this basic TCP check.

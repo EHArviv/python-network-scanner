@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Network Scanner Report - Demo</title>
+</head>
+<body>
+  <h1>Python Network Scanner Report</h1>
+
+  <p><strong>Generated At:</strong> 2026-06-18T12:00:00+00:00</p>
+  <p><strong>Total Checks:</strong> 6</p>
+  <p><strong>Open Ports:</strong> 2</p>
+  <p><strong>High Findings:</strong> 1</p>
+  <p><strong>Medium Findings:</strong> 1</p>
+  <p><strong>Low Findings:</strong> 0</p>
+
+  <h2>Results</h2>
+  <table border="1">
+    <tr>
+      <th>Target</th>
+      <th>Port</th>
+      <th>Status</th>
+      <th>Service Hint</th>
+      <th>Severity</th>
+      <th>Recommendation</th>
+    </tr>
+    <tr>
+      <td>192.0.2.10</td>
+      <td>22</td>
+      <td>open</td>
+      <td>SSH</td>
+      <td>Medium</td>
+      <td>SSH is open. Restrict access to trusted networks and enforce strong authentication.</td>
+    </tr>
+    <tr>
+      <td>192.0.2.10</td>
+      <td>3389</td>
+      <td>open</td>
+      <td>RDP</td>
+      <td>High</td>
+      <td>RDP is open. Restrict access using VPN, firewall rules, and MFA.</td>
+    </tr>
+  </table>
+</body>
+</html>

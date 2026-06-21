@@ -1,0 +1,24 @@
+[
+  {
+    "id": "FINDING-001",
+    "name": "Open TCP Port 22",
+    "target": "192.0.2.10",
+    "port": 22,
+    "service_hint": "SSH",
+    "severity": "Medium",
+    "details": "TCP port 22 appears open on 192.0.2.10.",
+    "recommendation": "SSH is open. Restrict access to trusted networks and enforce strong authentication.",
+    "status": "Open"
+  },
+  {
+    "id": "FINDING-002",
+    "name": "Open TCP Port 3389",
+    "target": "192.0.2.10",
+    "port": 3389,
+    "service_hint": "RDP",
+    "severity": "High",
+    "details": "TCP port 3389 appears open on 192.0.2.10.",
+    "recommendation": "RDP is open. Restrict access using VPN, firewall rules, and MFA.",
+    "status": "Open"
+  }
+]
