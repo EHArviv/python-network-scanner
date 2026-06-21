@@ -1,0 +1,4 @@
+Target,Port,Status,Service Hint,Severity,Recommendation
+192.0.2.10,22,open,SSH,Medium,SSH is open. Restrict access to trusted networks and enforce strong authentication.
+192.0.2.10,3389,open,RDP,High,RDP is open. Restrict access using VPN firewall rules and MFA.
+198.51.100.20,443,closed_or_filtered,HTTPS,Info,No action required based on this basic TCP check.
